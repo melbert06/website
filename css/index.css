@@ -1,0 +1,104 @@
+/*<--------INC page ------->*/
+body{
+	background: #070707;
+}
+.container {
+
+	width: 55%;
+	margin: 0 auto;
+}
+h1 {
+
+	color: #fff;  /* set from photopea */
+    font-size: 20px;  /* set from photopea  */
+    display: block;
+}
+.inc .page-title {
+
+	border-bottom: solid red 1px;
+}
+
+.inc .page-title h1 {
+
+	color: #ffffff;
+	text-align: center;
+}
+
+.inc .page-title h2 {
+
+	font-size: 12px;
+	color: #818181;
+	text-align: left;
+          
+}
+
+.inc .gallery{
+
+}
+
+.inc .gallery{
+
+}
+
+.inc .gallery .gallery-images-wrapper{
+	display: flex;
+	box-sizing: border-box;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.inc .gallery-images-54p, .inc .gallery-images-20p, .inc .gallery-images-23p{
+
+
+}
+
+.gallery-images-54p{
+	flex: 0 0 54%;
+	background: pink;
+}
+.gallery-images-20p{
+	flex: 0 0 20%;
+	background: skyblue;
+	display:flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.gallery-images-20p :nth-child(1){
+	flex:1;
+	background: yellow;
+}
+.gallery-images-20p :nth-child(2){
+	flex: 1;
+	color: yellow;
+}
+
+
+.gallery-images-23p{
+	flex: 0 0 23%;
+	background: cyan;
+}
+
+/* third example */
+.call-outs-container {
+  max-width: 1400px;
+  margin: 40px auto 0 auto;
+}
+
+.call-out {
+  padding: 20px;
+  box-sizing: border-box;
+  margin-bottom: 20px;
+  flex-basis: 30%;
+}
+
+@media (min-width: 900px) {
+  .call-outs-container {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.call-out:nth-child(1) {background-color: #c0dbe2;}
+.call-out:nth-child(2) {background-color: #cdf1c3;}
+.call-out:nth-child(3) {background-color: #ccb9da;}
+
