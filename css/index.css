@@ -13,9 +13,13 @@ h1 {
     font-size: 20px;  /* set from photopea  */
     display: block;
 }
+p{
+	color: #fff;
+	font-size:8px;
+}
 .inc .page-title {
 
-	border-bottom: solid red 1px;
+	
 }
 
 .inc .page-title h1 {
@@ -32,15 +36,15 @@ h1 {
           
 }
 
-.inc .gallery{
+.inc .gallery {
+	border-top: solid red 1px;
+}
+
+.inc .gallery {
 
 }
 
-.inc .gallery{
-
-}
-
-.inc .gallery .gallery-images-wrapper{
+.inc .gallery .gallery-images-wrapper {
 	display: flex;
 	box-sizing: border-box;
 	justify-content: space-between;
@@ -52,7 +56,7 @@ h1 {
 
 }
 
-.gallery-images-54p{
+.gallery-images-54p {
 	flex: 0 0 54%;
 	background: pink;
 }
@@ -73,10 +77,58 @@ h1 {
 }
 
 
-.gallery-images-23p{
+.gallery-images-23p {
 	flex: 0 0 23%;
 	background: cyan;
 }
+
+
+.margin-left {
+    margin-left:20px; 
+}
+
+
+
+/*<----------- Contact Section -------->*/
+.inc .contacts {
+     display: flex;
+     margin-bottom: 520px;
+
+}
+.inc .contacts-details-wrapper {
+	 flex: 0 0 59%; /*315 (width) / 532 (container-width) * 100  */
+
+}
+.inc .contacts-details-info {
+
+}
+.inc .contacts-details-info {
+
+}
+.contact-image-wrapper {
+	flex: 0 0 21%; /*220 (width) / 532 (container-width) * 100  */
+}
+
+.inc .contact-image-wrapper {
+
+     flex: 1;
+
+  
+}
+
+.contact-image-wrapper figcaption::before {
+    content: "\2022";
+  	color: #fff;
+ 	font-weight: bold;
+    display: inline-block; 
+    width: 1em;
+    margin-left: -1em;
+    font-size: 12px;
+}
+
+
+
+
 
 
 
