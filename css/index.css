@@ -213,16 +213,77 @@ figcaption {
 
 
 
-/* Menu Pages */
+/* <----------------------Menu Pages --------------------------------->*/
+/* <----------------------Common styles --------------------------------->*/
+.btn-group{
+	display: flex;
+	justify-content: space-between; 
+	box-sizing: border-box;
+	margin-bottom: 40px;
+}
+.btn-group .btn{
 
+	flex-basis: 30%;
+	border: 1px solid #fff;
+	background: #070707;
+	color: #fff;
+	height: 50px;
 
+}
+.btn-group .btn-active{
+
+	border: 1px solid #c21828;
+	background: #c21828;
+
+}
 
 
 
 .menu .ramen {
 
 	border-top: solid red 1px;
+
 }
+
+.menu .foods {
+
+	display: flex;
+	justify-content: space-between; 
+	box-sizing: border-box;
+	margin-bottom: 50px;
+
+}
+
+.menu .food-image {
+	margin: 0;
+	padding: 10px;
+    box-sizing: border-box;
+    flex: 1;
+
+
+
+}
+.menu .food-image img {
+	max-width: 100%;
+
+}
+.menu .food-title {
+
+	position: relative;
+	font-size: 13px;
+
+}
+.menu .food-title .food-price{
+
+	position: absolute;
+	right: 0;
+
+}
+
+
+
+
+
 
 
 
